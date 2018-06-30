@@ -1,0 +1,39 @@
+#heading
+{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 200;
+    text-align: center;
+}
+
+#buttons
+{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 200;
+}
+
+button
+{
+    cursor: pointer;
+}
+
+.container
+{
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: solid black;
+    display: block;
+    font-size: 0;
+}
+
+form
+{
+    transform: translateY(50%);
+}
+.box_props
+{
+    display: inline-block;
+}
